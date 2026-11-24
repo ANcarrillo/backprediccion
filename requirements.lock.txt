@@ -1,0 +1,20 @@
+# Versiones exactas para Docker (las mismas del .venv con que se entrenó y probó el modelo).
+# El .pkl solo carga bien con la misma versión de scikit-learn / XGBoost / LightGBM.
+fastapi==0.162.0
+uvicorn[standard]==0.54.0
+SQLAlchemy==2.1.8
+psycopg[binary]==3.3.8
+pydantic==2.14.3
+pydantic-settings==2.16.2
+email-validator==2.3.0
+python-multipart==0.0.33
+PyJWT==2.15.1
+bcrypt==5.0.0
+Pillow==13.0.0
+pandas==3.1.1
+numpy==2.5.4
+scipy==1.18.1
+scikit-learn==1.9.1
+lightgbm==4.7.0
+xgboost==3.4.1
+joblib==1.6.0
