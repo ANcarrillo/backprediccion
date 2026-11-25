@@ -1,0 +1,8 @@
+# Entorno y dependencias
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Configuración local (contraseñas)
+.env
